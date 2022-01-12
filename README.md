@@ -1,8 +1,8 @@
 # White Theme/No Dark Mode
-![]('Design/White_Theme.png');
+![](Design/White_Theme.png)
 
 # Dark Mode
-![]('Design/Dark_Theme.png');
+![](Design/Dark_Theme.png)
 
 
 # Getting Started with Create React App
