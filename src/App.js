@@ -37,6 +37,9 @@ function App() {
           <Route exact path="/home">
           < TextForm textHeading="Enter the text to analyse" mode={mode} />
           </Route>
+          <Route exact path="/textUtilities">
+          < TextForm textHeading="Enter the text to analyse" mode={mode} />
+          </Route>
           <Route exact path="/about">
             <About />
           </Route>
