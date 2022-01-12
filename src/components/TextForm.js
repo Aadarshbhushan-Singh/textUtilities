@@ -86,7 +86,7 @@ export const TextForm = (props) => {
         </div>
         <div className='container my-3'>
             <h1>Text Summary</h1>
-            <p>{words} <b>Words</b> {characters} <b>Characters</b></p>
+            <p>{text.split(/\s+/).filter((element)=>{return element.length!==0}).length} words and {text.length} characters</p>
             <p>{words*0.008} Minutes Read</p>
 
             <h2>Preview</h2>
